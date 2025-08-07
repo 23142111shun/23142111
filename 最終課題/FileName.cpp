@@ -20,7 +20,7 @@ public:
     bool getIsIncome() const { return isIncome; }
 };
 
-class KakeiboManager {
+class Kakeibo {
 private:
     vector<Expense> records;
 
@@ -53,7 +53,7 @@ public:
 };
 
 int main() {
-    KakeiboManager manager;
+    Kakeibo manager;
     int choice;
     string category;
     double amount;
