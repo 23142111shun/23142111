@@ -46,8 +46,8 @@ public:
                 expenseTotal += it->getAmount();
         }
         cout << "- ŽûŽx‚Ì‡Œv -" << endl;
-        cout << "Žû“ü‡Œv: " << incomeTotal << "‰~" << endl;
-        cout << "Žxo‡Œv: " << expenseTotal << "‰~" << endl;
+        cout << "Žû“ü‚Ì‡Œv: " << incomeTotal << "‰~" << endl;
+        cout << "Žxo‚Ì‡Œv: " << expenseTotal << "‰~" << endl;
         cout << "Žc‚: " << (incomeTotal - expenseTotal) << "‰~" << endl;
     }
 };
