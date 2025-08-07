@@ -60,7 +60,7 @@ int main() {
     int incomeFlag;
 
     while (true) {
-        cout << "\n1. 収入・支出を追加\n2. 一覧表示\n3. 収支サマリー\n4. 終了\n選択: ";
+        cout << "\n1. 収入・支出を追加\n2. 一覧表示\n3. 収支の合計\n4. 終了\n選択: ";
         cin >> choice;
         cin.ignore();
 
